@@ -82,4 +82,5 @@ Sur votre serveur **web1.cesi**
 # Bonus #
 
 * Créer un conteneur dédié à l'hébergement de la BDD avec hébergement des données de la base dans un répertoire spécifique
+* En se basant sur les TP précédents, créer un script de backup pour générer un *dump* de la BDD toutes les nuits
  
