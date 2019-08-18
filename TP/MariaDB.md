@@ -75,7 +75,7 @@ Sur votre serveur **web1.cesi**
 * Récupérer le fichier bdd.php et le déposer dans le même dossier que users.html
 * Editer le fichier bdd.php et remplacer les <XXX> par les bonnes valeurs
 * Afficher la page dans votre navigateur
-* Ajouter un utilisateur dans la table *utilisateurs
+* Ajouter un utilisateur *sysadmin* dans la table *utilisateurs*
 * Rafraîchir la page et s'assurer qu'il apparait
  
  
