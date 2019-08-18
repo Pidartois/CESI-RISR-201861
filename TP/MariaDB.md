@@ -45,12 +45,14 @@ Sur votre serveur **web1.cesi**
 
 * Ecrire un fichier */data/www/simple/users.html* avec le contenu suivant :
 ```
-  <html>
+ <html>
+  <head>
+    <title> Liste des utilisateurs </title>
+  </head>
   <body>
-    <b>Utilisateurs :</b>
-    root
+  root
   </body>
-  </html>
+</html>
 ```
 * Afficher *users.html* dans votre navigateur web
 * Créer et autoriser les utilisateurs *web1* et *web2* à se connecter à distance sur votre serveur de BDD et à lire le contenu de la base *db1* (opération à réaliser sur le serveur **infra**)
@@ -73,6 +75,8 @@ Sur votre serveur **web1.cesi**
 * Récupérer le fichier bdd.php et le déposer dans le même dossier que users.html
 * Editer le fichier bdd.php et remplacer les <XXX> par les bonnes valeurs
 * Afficher la page dans votre navigateur
+* Ajouter un utilisateur dans la table *utilisateurs
+* Rafraîchir la page et s'assurer qu'il apparait
  
  
 # Bonus #
