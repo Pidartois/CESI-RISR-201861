@@ -6,7 +6,7 @@ Découvrir l'utilisation basique de MySQL/MariaDB (fork de MySQL en 2009)
  ## Partie 1 ##
 
  Sur la machine faisant office de serveur NFS (**infra.cesi**) :
- * Installer le package
+ * Installer le package via internet ou DVD CentOS (*yum --disablerepo=\* --enablerepo=c7-media* <...>)
  * Vérifier l'état du service
  * Se connecter au moteur MariaDB
  * Créer une base de données "db1"
